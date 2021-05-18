@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ToggleButton
+        android:id="@+id/toggleApagado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="Apagado"
+        android:textOn="Prendido"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Switch
+        android:id="@+id/swApagado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        android:textOff="Apagado"
+        android:textOn="Prendido"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <RadioGroup
+        android:layout_width="256dp"
+        android:layout_height="154dp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="414dp" >
+
+        <RadioButton
+            android:id="@+id/rbMasculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/rbFemenino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Femenino" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
